@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BFB</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="header">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">B for Brownies</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#about" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            About us
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#events" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Events
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#brownies" class="nav-link">
+                            <i class="bi bi-menu-down me-1"></i>
+                            Our brownies
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#testimonials" class="nav-link">
+                            <i class="bi bi-chat-square-heart me-1"></i>
+                            Testimonials
+                        </a>
+                    </li>                    <li class="nav-item fw-bold">
+                        <a href="#contact" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contact us
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="header" data-bs-smooth-scroll="true">
+        <section id="about">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./imgs/carousel/slide1.jpg" alt="Chocolate brownies">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imgs/carousel/slide2.jpg" alt="Caramel brownies">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imgs/carousel/slide3.jpg" alt="Ice cream and brownie">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imgs/brownies/nuts3.jpg" alt="Almond brownies" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title coloured-text">About us</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos non dolorum perspiciatis, voluptatem voluptatum deserunt error ducimus ullam explicabo voluptates consectetur cupiditate unde quo, beatae quaerat accusantium delectus ut soluta.</p>
+                            <h3 class="section-title">Our <span class="coloured-text">best</span> sellers</h3>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="events" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <h2 class="section-title text-center">A <span class="coloured-text">brownie</span> for every occasion</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./imgs/events/birthdays.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h4 class="section-title coloured-text">
+                            <i class="bi bi-cake2-fill"></i> 
+                            Birthdays
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla quam doloribus quidem voluptatibus perspiciatis magni sit accusantium mollitia odio, quod, animi et vero quaerat voluptas iusto! Ipsum, reprehenderit modi.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imgs/events/special-dates.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h4 class="section-title coloured-text">
+                            <i class="bi bi-balloon-heart-fill"></i> 
+                            Special dates
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est exercitationem reiciendis eos facere quas assumenda laborum eveniet sed ipsam sit vel mollitia voluptate quia eaque, corrupti excepturi in! Minus!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imgs/events/weddings.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h4 class="section-title coloured-text">
+                            <i class="bi bi-calendar-heart-fill"></i> 
+                            Weddings
+                        </h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla voluptate, ipsa dolores beatae sed doloremque ex eum, dolorum vero eius odio, recusandae adipisci suscipit corporis excepturi illum magni asperiores soluta.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="brownies" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Our <span class="coloured-text">brownies</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#chocolate" class="fw-bold text-start nav-link coloured-text active">Chocolate</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nuts" class="fw-bold text-start nav-link coloured-text">Nuts</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#strawberry" class="fw-bold text-start nav-link coloured-text">Strawberry</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#frosted" class="fw-bold text-start nav-link coloured-text">Frosted</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#toppings" class="fw-bold text-start nav-link coloured-text">Toppings</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="chocolate">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/chocolate.jpg" alt="Chocolate brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Chocolate brownie</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£3.00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/chocolate2.jpg" alt="Chocolate brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Chocolate brownie with ice cream</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£5.00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/chocolate.jpg" alt="Chocolate brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Chocolate brownie</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£3.00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/chocolate2.jpg" alt="Chocolate brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Chocolate brownie with ice cream</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£5.00</p>
+                                    </div>                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/chocolate.jpg" alt="Chocolate brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Chocolate brownie</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£3.00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/chocolate2.jpg" alt="Chocolate brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Chocolate brownie with ice cream</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£5.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="nuts">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/nuts.jpg" alt="Almond brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Almond brownie</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£4.50</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/nuts2.jpg" alt="Walnut brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Walnut brownie</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£4.00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/nuts4.jpg" alt="Cashew brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Cashew brownie</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£4.00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/nuts.jpg" alt="Almond brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Almond brownie</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£4.50</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/nuts2.jpg" alt="Walnut brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Walnut brownie</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£4.00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/nuts4.jpg" alt="Salmão" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Salmão</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£4.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="strawberry">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/strawberry.jpg" alt="Strawberry brownie with a chocolate ganache" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Strawberry brownie with a chocolate ganache</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£5.00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/strawberry2.jpg" alt="Strawberry brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Strawberry brownie</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£4.00</p>
+                                    </div>                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/strawberry.jpg" alt="Strawberry brownie with a chocolate ganache" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Strawberry brownie with a chocolate ganache</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£5.00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/strawberry2.jpg" alt="Strawberry brownie" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Strawberry brownie</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <p>£4.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="frosted">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/frosted.jpg" alt="Frosted brownies with honey" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Frosted brownies with honey</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <p>£3.50</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/frosted2.jpg" alt="Frosted brownies" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Frosted brownies</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <p>£3.50</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/frosted.jpg" alt="Frosted brownies with honey" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Frosted brownies with honey</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <p>£3.50</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/frosted2.jpg" alt="Frosted brownies" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Frosted brownies</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <p>£3.50</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/frosted.jpg" alt="Frosted brownies with honey" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Frosted brownies with honey</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <p>£3.50</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/frosted2.jpg" alt="Frosted brownies" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Frosted brownies</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <p>£3.50</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="toppings">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/toppings.jpg" alt="Assorted toppings" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Assorted toppings</h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        <p>Prices may vary</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/toppings2.jpg" alt="Kids' toppings" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Kids' toppings</h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        <p>Prices may vary</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/toppings.jpg" alt="Assorted toppings" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Assorted toppings</h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        <p>Prices may vary</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/toppings2.jpg" alt="Kids' toppings" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Kids' toppings</h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        <p>Prices may vary</p>
+                                    </div>                                <div class="col-md-3">
+                                        <img src="./imgs/brownies/toppings.jpg" alt="Assorted toppings" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Assorted toppings</h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        <p>Prices may vary</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imgs/brownies/toppings2.jpg" alt="Kids' toppings" class="d-block w-100 rounded mb-1">
+                                        <h5 class="coloured-text fw-bold">Kids' toppings</h5>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        <p>Prices may vary</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <h2 class="section-title text-center">Our <span class="coloured-text">clients'</span> opinions</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./imgs/testimonials/strawberry.jpg" alt="" class="w-100 rounded mb-4">
+                    </div>
+                    <div class="col-md-7">
+                        <h4 class="section-title coloured-text">
+                            <i class="bi bi-arrow-through-heart-fill"></i> 
+                            "I fell in love with the strawberry brownies!"
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dignissimos exercitationem debitis optio laborum sint alias blanditiis, animi dolor delectus itaque adipisci aspernatur magni, provident error, odio accusamus corporis quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla quam doloribus quidem voluptatibus perspiciatis magni sit accusantium mollitia odio, quod, animi et vero quaerat voluptas iusto! Ipsum, reprehenderit modi.</p>
+                    </div>                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./imgs/testimonials/kids.jpg" alt="" class="w-100 rounded mb-2">
+                    </div>
+                    <div class="col-md-7">
+                        <h4 class="section-title coloured-text">
+                            <i class="bi bi-emoji-heart-eyes-fill"></i> 
+                            "The kids' toppings were a success at my son's party!"
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dignissimos exercitationem debitis optio laborum sint alias blanditiis, animi dolor delectus itaque adipisci aspernatur magni, provident error, odio accusamus corporis quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla quam doloribus quidem voluptatibus perspiciatis magni sit accusantium mollitia odio, quod, animi et vero quaerat voluptas iusto! Ipsum, reprehenderit modi.</p>
+                    </div>
+        </section>
+        <section id="contact" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center coloured-text">Contact us</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold coloured-text">Name:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold coloured-text">Email:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold coloured-text">WhatsApp:</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold coloured-text">Message:</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Send</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title coloured-text fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i> 
+                                Social media
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 ms-5">
+                                    <a href="#"></a>
+                                        <i class="bi bi-instagram coloured-text"></i>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#"></a>
+                                        <i class="bi bi-facebook coloured-text"></i>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#"></a>
+                                        <i class="bi bi-whatsapp coloured-text"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title coloured-text fs-4">
+                                <i class="bi bi-cursor-fill"></i> 
+                                Address
+                            </h3>
+                            <p>Whatever Street, 385 Soho, London-EN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
